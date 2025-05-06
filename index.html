@@ -8,6 +8,7 @@
   <!-- Add your name below -->
   <title>Anisha Rapolu</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
@@ -24,36 +25,64 @@
       <img src="images/sunset.jpg" alt="Sunset in Hawaii">
     </div>
     <div class="intro">
-      I'm <span class="name"><strong>Anisha Rapolu</strong></span>, a Computer Science major looking to pursue a job in the Cybersecurity field.
+      I'm <span class="name"><strong>Anisha Rapolu</strong></span>, a first year Secure Computing major looking to pursue a job in the Cybersecurity field.
     </div>
     <div class="section-header">
       <h1>My work</h1>
     </div>
     <!-- Replace the # inside of the href="#" with your links. -->
     <div class="links-container">
-      <div class="button toggle">Blog post</div>
+      <div class="button toggle"><i class="fab fa-medium"> </i>Blog post</div>
       <div class="slidedown">
         <div class="description">
           <h2>Social Media in the AI Era: How Algorithms Shape the Stories We See</h2>
-          <p>This blog post explores how AI-powered algorithms on social media platforms shape what we see, creating personalized feeds that with bias, spread misinformation, and influence our perception of reality.</p>
+          <p>AI is reshaping reality one scroll at a time. This blog post exposes how AI-driven feeds change the truth, spread misinformation, and manipulate your perception.</p>
           <a href="https://medium.com/@ranisha/social-media-in-the-ai-era-how-algorithms-shape-the-stories-we-see-943fe863fe39" class="external-link" target="_blank">Read</a>
         </div>
       </div>
 
-      <div class="button toggle">Video</div>
+      <div class="button toggle"><i class="fa-brands fa-youtube"></i>Video</div>
       <div class="slidedown">
         <div class="description">
-          <h2>Video title</h2>
-          <p>Add a short but appealing description of your video.</p>
-          <a href="#" class="external-link" target="_blank">Watch</a>
+          <h2>How I Stay (Sorta) Sane at VT</h2>
+          <p>College can be overwhelming — trust me, I get it. In this short video, I share the small things I do at Virginia Tech to take care of my mental health.</p>
+          <div class="embed-container">
+            <style>
+              .embed-container {
+                position: relative;
+                padding-bottom: 177.78%; /* Aspect ratio for YouTube Shorts */
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              }
+            
+              .embed-container iframe,
+              .embed-container object,
+              .embed-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              }
+            </style>
+            
+            <div class="embed-container">
+              <iframe src="https://www.youtube.com/embed/Y3N-A-B9Mag" 
+                      title="YouTube video player" frameborder="0"
+                      allowfullscreen>
+              </iframe>
+            </div>            
+          </div>
+          <a href="https://youtube.com/shorts/Y3N-A-B9Mag?feature=share" class="external-link" target="_blank">Watch</a>
         </div>
       </div>
 
-      <div class="button toggle">Podcast</div>
+      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i>Podcast</div>
       <div class="slidedown">
         <div class="description">
           <h2>Digital Drift</h2>
-          <p>A podcast about the psychology of scrolling on social media.</p>
+          <p>Why can’t we stop scrolling? This podcast dives into the psychology behind that endless scrolling and how social media keeps us hooked.</p>
           <a href="https://soundcloud.com/ashley-forwood-41222114/final-group-podcast" class="external-link" target="_blank">Listen</a>
         </div>
       </div>
@@ -83,7 +112,7 @@
     </div>
 
     <div class="links-container">
-      <a href="https://www.linkedin.com/in/anisha-rapolu/" class="button" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/anisha-rapolu/" class="button" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
     </div>
 
   </div>
